@@ -12,8 +12,6 @@ namespace OC_Zadanie_2_Process
     {
         public static Process GetNextActive(List<Process> procs)
         {
-            //Чёт делает
-            /*Debug.WriteLine("Статический метод");*/
             //Следующий активный процесс вызывает
             foreach (Process proc in procs) //Если есть несколько активных, то он просто выбирает первый по списку
             {
