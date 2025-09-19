@@ -22,7 +22,7 @@ namespace OC_Zadanie_2_Process
                     procs[i].Status = ProcessStatus.Active; //Делаем его активным
                     return procs[i];
                 }
-            }ы
+            }
 
             //на рандом щас поставить
             //Следующий активный процесс вызывает

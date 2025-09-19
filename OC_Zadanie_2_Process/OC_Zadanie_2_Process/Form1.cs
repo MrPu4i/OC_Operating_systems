@@ -8,15 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static OC_Zadanie_2_Process.Process;
 
 namespace OC_Zadanie_2_Process
 {
     public partial class Form1 : Form
     {
         ProcessManager procManager = new ProcessManager(); //создаём один экземпляр 
+        private const int pixels_per_tick = 10;
         public Form1()
         {
             InitializeComponent();
+            panel.Paint += panel_Paint;
+            list_processes.SelectedIndexChanged += list_processes_SelectedIndexChanged;
         }
 
         private void but_new_proc_Click(object sender, EventArgs e)
@@ -83,6 +87,62 @@ namespace OC_Zadanie_2_Process
             {
                 list_processes.Items.Add($"{proc.Name} | {proc.Status} | {proc.TimeResurs} | {proc.TimeUsed}");
             }
+            panel.Invalidate();
         }
+
+        private void panel_Paint(object sender, PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            g.Clear(panel.BackColor); //очищаем панель
+
+            int itemHeight = list_processes.ItemHeight; //высота итема в listbox
+            int visibleItems = list_processes.Height / itemHeight;
+
+            for (int i = 0; i < Math.Min(procManager.Processes.Count, visibleItems); i++)
+            {
+                var process = procManager.Processes[i];
+
+                if (process.Status != ProcessStatus.Zombie)
+                {
+                    int y = i * itemHeight + 2;
+                    DrawProcessBar(g, process, y);
+                }
+            }
+        }
+
+        private void DrawProcessBar(Graphics g, Process process, int y)
+        {
+            int maxWidth = panel.Width - 20;
+            int totalWidth = process.TimeResurs * pixels_per_tick;
+            int currentWidth = process.TimeUsed * pixels_per_tick;
+
+            // Рисуем фон (полную длину процесса)
+            Rectangle totalRect = new Rectangle(10, y + 5, totalWidth, 8);
+            using (var brush = new SolidBrush(Color.LightGray))
+            {
+                g.FillRectangle(brush, totalRect);
+                g.DrawRectangle(Pens.DarkGray, totalRect);
+            }
+
+            // Рисуем текущий прогресс
+            if (currentWidth > 0)
+            {
+                Rectangle currentRect = new Rectangle(10, y + 5, currentWidth, 8);
+                Color progressColor = process.Status == ProcessStatus.Active ?
+                    Color.Green : Color.Blue;
+
+                using (var brush = new SolidBrush(progressColor))
+                {
+                    g.FillRectangle(brush, currentRect);
+                }
+            }
+        }
+
+        private void list_processes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            panel.Invalidate();
+        }
+
+
     }
 }
