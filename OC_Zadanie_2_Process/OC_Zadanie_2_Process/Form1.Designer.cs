@@ -54,7 +54,7 @@
             // 
             this.but_remove.BackColor = System.Drawing.Color.DarkSlateGray;
             this.but_remove.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.but_remove.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.but_remove.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.but_remove.Location = new System.Drawing.Point(463, 606);
             this.but_remove.Name = "but_remove";
             this.but_remove.Size = new System.Drawing.Size(338, 78);
@@ -223,7 +223,7 @@
             // 
             // timer
             // 
-            this.timer.Interval = 1;
+            this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // button1

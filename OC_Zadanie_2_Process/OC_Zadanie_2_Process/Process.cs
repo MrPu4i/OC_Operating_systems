@@ -13,8 +13,8 @@ namespace OC_Zadanie_2_Process
     {
 
         //на момент рождения cur priority равен base
-        int IDProc { get; set; }
-        string Name { get; set; } //Proc1
+        public int IDProc { get; set; }
+        public string Name { get; set; } //Proc1
         public ProcessStatus Status { get; set; }//enum
         public enum ProcessStatus
         {
@@ -47,13 +47,13 @@ namespace OC_Zadanie_2_Process
             CurPrior = BasePrior;
             //Задать время исполнения
             //TimeResurs = time_res;
-            TimeResurs = rnd.Next(50, 100);
+            TimeResurs = rnd.Next(5, 10);
             //Debug.WriteLine($"{IDProc}, {Name}, {BasePrior}, {CurPrior}, {TimeResurs}");
 
-            whenTimeToWait = rnd.Next(30, 170); //Может ваще не дождёмся
-            if (whenTimeToWait <= 100) //Значит нам придёться ждать
+            whenTimeToWait = rnd.Next(3, 17); //Может ваще не дождёмся
+            if (whenTimeToWait <= 10) //Значит нам придёться ждать
             {
-                howLongToWait = rnd.Next(0, 70);
+                howLongToWait = rnd.Next(0, 7);
             }
 
             /*_ = StartRandomStatusChanges(); // Запускаем фоновую задачу*/
@@ -78,10 +78,10 @@ namespace OC_Zadanie_2_Process
 
         //Понять как работает enum
 
-        public override string ToString()
+        /*public override string ToString()
         {
-            return $"{Name}: {Status}";
-        }
+            return $"{Name}: {Status} - {TimeUsed} - {CurPrior}";
+        }*/
 
         /*private async Task StartRandomStatusChanges()
         {

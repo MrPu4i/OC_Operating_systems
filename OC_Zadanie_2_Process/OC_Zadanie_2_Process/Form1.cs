@@ -40,6 +40,9 @@ namespace OC_Zadanie_2_Process
             tb_green.BackColor = Color.Green;
             tb_red.BackColor = Color.DarkSlateGray;
 
+            but_remove.Enabled = false; //Выключаем кнопку удаления процессов
+            but_remove.ForeColor = Color.Gray;
+
             //включаем таймер
             timer.Enabled = true;
         }
@@ -53,6 +56,9 @@ namespace OC_Zadanie_2_Process
         {
             tb_red.BackColor = Color.Red;
             tb_green.BackColor = Color.DarkSlateGray;
+            
+            but_remove.Enabled = true; //Включаем кнопку удаления процессов
+            but_remove.ForeColor = Color.White;
 
             //останавливаем таймер
             timer.Enabled = false;
@@ -75,7 +81,7 @@ namespace OC_Zadanie_2_Process
             list_processes.Items.Clear();
             foreach (Process proc in procManager.Processes)
             {
-                list_processes.Items.Add(proc);
+                list_processes.Items.Add($"{proc.Name} | {proc.Status} | {proc.TimeResurs} | {proc.TimeUsed}");
             }
         }
     }

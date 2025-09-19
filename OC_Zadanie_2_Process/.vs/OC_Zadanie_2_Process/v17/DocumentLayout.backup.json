@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\ProcessManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OC_Zadanie_2_Process\\ProcessManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|solutionrelative:OC_Zadanie_2_Process\\Scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OC_Zadanie_2_Process\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|solutionrelative:OC_Zadanie_2_Process\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\oc_zadanie_2_process\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:oc_zadanie_2_process\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|d:\\projects\\\u043E\u0441\\oc_zadanie_2_process\\oc_zadanie_2_process\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|solutionrelative:oc_zadanie_2_process\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OC_Zadanie_2_Process\\Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|solutionrelative:OC_Zadanie_2_Process\\Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OC_Zadanie_2_Process\\Scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\ProcessManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F3D401-8DC8-4DC2-A18F-30E596811506}|OC_Zadanie_2_Process\\OC_Zadanie_2_Process.csproj|solutionrelative:OC_Zadanie_2_Process\\ProcessManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "OC_Zadanie_2_Process\\Form1.cs",
               "ToolTip": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Form1.cs",
               "RelativeToolTip": "OC_Zadanie_2_Process\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAtwEoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T08:55:01.773Z",
               "EditorCaption": ""
@@ -55,19 +55,21 @@
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Form1.cs",
               "RelativeDocumentMoniker": "OC_Zadanie_2_Process\\Form1.cs",
-              "ToolTip": "C:\\Users\\irish\\source\\repos\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "OC_Zadanie_2_Process\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T08:53:22.135Z"
+              "WhenOpened": "2025-09-08T08:53:22.135Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProcessManager.cs",
               "DocumentMoniker": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\ProcessManager.cs",
               "RelativeDocumentMoniker": "OC_Zadanie_2_Process\\ProcessManager.cs",
               "ToolTip": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\ProcessManager.cs",
               "RelativeToolTip": "OC_Zadanie_2_Process\\ProcessManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAApwDkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T13:56:48.22Z",
               "EditorCaption": ""
@@ -80,21 +82,23 @@
               "RelativeDocumentMoniker": "OC_Zadanie_2_Process\\Process.cs",
               "ToolTip": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Process.cs",
               "RelativeToolTip": "OC_Zadanie_2_Process\\Process.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAADwvy8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvyoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T08:53:51.384Z"
+              "WhenOpened": "2025-09-08T08:53:51.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Scheduler.cs",
               "DocumentMoniker": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Scheduler.cs",
               "RelativeDocumentMoniker": "OC_Zadanie_2_Process\\Scheduler.cs",
               "ToolTip": "D:\\projects\\\u041E\u0421\\OC_Zadanie_2_Process\\OC_Zadanie_2_Process\\Scheduler.cs",
               "RelativeToolTip": "OC_Zadanie_2_Process\\Scheduler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:52:00.053Z"
+              "WhenOpened": "2025-09-14T13:52:00.053Z",
+              "EditorCaption": ""
             }
           ]
         }
