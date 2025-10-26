@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static OC_Zadanie_2_Process.Process;
+using static OC_Zadanie_3_Virtual_Memory.Process;
 
-namespace OC_Zadanie_2_Process
+namespace OC_Zadanie_3_Virtual_Memory
 {
     internal class Scheduler
     {

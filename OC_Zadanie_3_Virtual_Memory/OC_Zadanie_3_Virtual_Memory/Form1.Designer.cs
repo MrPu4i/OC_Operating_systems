@@ -1,4 +1,4 @@
-﻿namespace OC_Zadanie_2_Process
+﻿namespace OC_Zadanie_3_Virtual_Memory
 {
     partial class Form1
     {

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace OC_Zadanie_2_Process
+namespace OC_Zadanie_3_Virtual_Memory
 {
     internal class Process
     {
@@ -28,6 +28,8 @@ namespace OC_Zadanie_2_Process
         public int BasePrior { get; set; } //Задаём рандомно от 0 до 5
         public int CurPrior { get; set; } //= BasePrior
 
+        public int ProcMemory { get; set; }
+
         Random rnd = new Random();
         int whenTimeToWait;
         int howLongToWait;
@@ -37,18 +39,13 @@ namespace OC_Zadanie_2_Process
         {
             Status = ProcessStatus.Ready;
             Random rnd = new Random();
-            //Задать ID
             IDProc = id;
-            //Задать имя
             Name = name;
-            //Задать приоритет
-            //BasePrior = base_prior;
             BasePrior = rnd.Next(1, 10);
             CurPrior = BasePrior;
-            //Задать время исполнения
-            //TimeResurs = time_res;
             TimeResurs = rnd.Next(5, 10);
             //Debug.WriteLine($"{IDProc}, {Name}, {BasePrior}, {CurPrior}, {TimeResurs}");
+            ProcMemory = rnd.Next(100, 300); //сколько памяти требуется процессу
         }
 
         public void Go()

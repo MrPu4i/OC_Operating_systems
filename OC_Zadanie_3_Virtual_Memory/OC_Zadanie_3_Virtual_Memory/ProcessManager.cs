@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using static OC_Zadanie_2_Process.Process;
+using static OC_Zadanie_3_Virtual_Memory.Process;
 
-namespace OC_Zadanie_2_Process
+namespace OC_Zadanie_3_Virtual_Memory
 {
     internal class ProcessManager
     {
