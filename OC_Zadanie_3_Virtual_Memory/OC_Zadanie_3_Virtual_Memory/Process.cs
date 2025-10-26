@@ -30,13 +30,14 @@ namespace OC_Zadanie_3_Virtual_Memory
 
         public int ProcMemory { get; set; }
 
+        public int? RAMAddress { get; set; } // Адрес в оперативной памяти
+        public int? VirtualMemoryAddress { get; set; } // Адрес в виртуальной памяти
+
         Random rnd = new Random();
-        int whenTimeToWait;
-        int howLongToWait;
 
 
         public Process(int id, string name)
-        {
+        { 
             Status = ProcessStatus.Ready;
             Random rnd = new Random();
             IDProc = id;
@@ -45,7 +46,9 @@ namespace OC_Zadanie_3_Virtual_Memory
             CurPrior = BasePrior;
             TimeResurs = rnd.Next(5, 10);
             //Debug.WriteLine($"{IDProc}, {Name}, {BasePrior}, {CurPrior}, {TimeResurs}");
-            ProcMemory = rnd.Next(100, 300); //сколько памяти требуется процессу
+            ProcMemory = rnd.Next(100, 500); //сколько памяти требуется процессу
+            RAMAddress = null;
+            VirtualMemoryAddress = null;
         }
 
         public void Go()
@@ -54,14 +57,15 @@ namespace OC_Zadanie_3_Virtual_Memory
             TimeUsed++;
             Debug.WriteLine("TimeUsed++");
         }
-        /* Убираем Check, что бы управлять Process в ProcessManager. Он не должен сам с собой что-то делать
-        public void Check()
+
+        public bool IsInRAM()
         {
-            //На рандом делаем Waiting
-            if (TimeUsed == TimeResurs)
-            {
-                Status = ProcessStatus.Zombie; //Закончил работать
-            }
-        }*/
+            return RAMAddress != null;
+        }
+
+        public bool IsInVirtualMemory()
+        {
+            return VirtualMemoryAddress != null;
+        }
     }
 }
