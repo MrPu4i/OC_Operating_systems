@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Diagnostics;
+using System.Diagnostics.PerformanceData;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -31,6 +33,8 @@ namespace FileSystem
             // Привязываем ImageList к ListView
             listView.SmallImageList = imageList;
             UpdateVisual();
+
+            SetDataGridView();
         }
 
         private MyFileSystem FileSystem
@@ -40,12 +44,72 @@ namespace FileSystem
                 return MyFileSystem.Instance;
             }
         }
+        private void SetDataGridView()
+        {
+            for (int i = 0; i < FileSystem.FATfs.numClusters; i++)
+            {
+                FATgrid.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    Width = 20,
+                    HeaderText = i.ToString(), // Заголовок = номер колонки
+                    DefaultCellStyle = new DataGridViewCellStyle
+                    {
+                        Alignment = DataGridViewContentAlignment.MiddleCenter,
+                        Font = new Font("Arial", 8, FontStyle.Bold)
+                    }
+                });
+            }
+            FATgrid.ColumnHeadersDefaultCellStyle.Font =
+    new Font("Microsoft Sans Serif", 7, FontStyle.Regular);
+            FATgrid.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+
+            //FATgrid.Rows.Add(); //1 строка
+            FATgrid.Rows.Add(); //1 строка
+
+            // Настраиваем внешний вид ячеек
+            foreach (DataGridViewRow row in FATgrid.Rows)
+            {
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    cell.Style.BackColor = Color.White; // Пустые ячейки серые
+                    cell.Value = ""; // Пустое значение
+                }
+            }
+        }
 
         private void btnCreateFile_Click(object sender, EventArgs e)
         {
             FileSystem.CreateFile("File_name" + i, FileSystem.CurFolder, ".txt");
             i++;
+            UpdateFAT();
             UpdateVisual();
+        }
+        public void UpdateFAT() //Обновление таблицы FAT
+        {
+            //Если ячейка пуста - серое
+            //Если занята - голубое/оранж
+            //Если последнее значение - красный
+            for (int i = 0; i < FileSystem.FATfs.FAT.Count; i++)
+            {
+                int a = FileSystem.FATfs.FAT[i];
+                DataGridViewCell cell = FATgrid.Rows[0].Cells[i];
+                //В любом случае пишем значение в ячейку
+                cell.Value = a;
+                if (a == -1)
+                {
+                    cell.Style.BackColor = Color.Red;
+                }
+                if (a > 0)
+                {
+                    cell.Style.BackColor = Color.LightBlue;
+                }
+                if (a == FileSystem.FATfs.empty) // < 0 (пусто)
+                {
+                    cell.Style.BackColor = Color.White;
+                    cell.Value = null;
+                }
+            }
         }
 
         private void btnCreateFolder_Click(object sender, EventArgs e)
@@ -146,6 +210,7 @@ namespace FileSystem
                         listView.Items.Remove(selectedItem);
                     }
                 }
+                UpdateFAT();
                 UpdateVisual();
             }
         }
@@ -219,6 +284,7 @@ namespace FileSystem
         private void btnPaste_Click(object sender, EventArgs e)
         {
             FileSystem.Paste();
+            UpdateFAT();
             UpdateVisual();
         }
 
@@ -252,6 +318,12 @@ namespace FileSystem
 
             FileSystem.Move();
             UpdateVisual();
+        }
+
+        private void btn_Defragment_Click(object sender, EventArgs e)
+        {
+            FileSystem.FATfs.Defragment(); //Дефрагментируем
+            UpdateFAT();
         }
     }
 }

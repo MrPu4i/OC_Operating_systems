@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\\u041E\u0421\\FATFileSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\fatfilesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\fatfilesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|d:\\projects\\\u043E\u0441\\fatfilesystem\\filesystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\myfilesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\myfilesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\fileobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\fileobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|D:\\projects\\\u041E\u0421\\FATFileSystem\\filesystem\\rootfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD266EE8-5C07-4D10-9B3B-3D7616CC7AA9}|FileSystem\\FileSystem.csproj|solutionrelative:filesystem\\rootfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FATFileSystem.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\FATFileSystem.cs",
+              "RelativeDocumentMoniker": "FileSystem\\FATFileSystem.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\FATFileSystem.cs",
+              "RelativeToolTip": "FileSystem\\FATFileSystem.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAUwIQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T11:16:08.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "FileSystem\\Form1.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FileSystem\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:24:22.049Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyFileSystem.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\MyFileSystem.cs",
+              "RelativeDocumentMoniker": "FileSystem\\MyFileSystem.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\MyFileSystem.cs",
+              "RelativeToolTip": "FileSystem\\MyFileSystem.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:25:12.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "FileSystem\\Form1.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Form1.cs",
+              "RelativeToolTip": "FileSystem\\Form1.cs",
+              "ViewState": "AgIAABcBAAAAAAAAAAAowEIBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:25:50.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "File.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\File.cs",
+              "RelativeDocumentMoniker": "FileSystem\\File.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\File.cs",
+              "RelativeToolTip": "FileSystem\\File.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAtwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:23:55.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RootFolder.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\RootFolder.cs",
+              "RelativeDocumentMoniker": "FileSystem\\RootFolder.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\RootFolder.cs",
+              "RelativeToolTip": "FileSystem\\RootFolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:52:14.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "FileSystem\\Form1.Designer.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Form1.Designer.cs",
+              "RelativeToolTip": "FileSystem\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:47:12.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Folder.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Folder.cs",
+              "RelativeDocumentMoniker": "FileSystem\\Folder.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\Folder.cs",
+              "RelativeToolTip": "FileSystem\\Folder.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:24:16.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileObject.cs",
+              "DocumentMoniker": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\FileObject.cs",
+              "RelativeDocumentMoniker": "FileSystem\\FileObject.cs",
+              "ToolTip": "D:\\projects\\\u041E\u0421\\FATFileSystem\\FileSystem\\FileObject.cs",
+              "RelativeToolTip": "FileSystem\\FileObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:24:00.863Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
